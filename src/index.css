@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.shadow-out {
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff !important;
+  border-radius: 10px;
+}
+.shadow-in {
+  box-shadow: inset 3px 3px 6px #b8b9be, inset -3px -3px 6px #fff !important;
+  border-radius: 10px;
+}
+.textClip {
+  background: radial-gradient(
+    circle farthest-corner at 22.4% 21.7%,
+    rgba(4, 189, 228, 1) 0%,
+    rgba(2, 83, 185, 1) 100.2%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.6rem;
+}
+input {
+  box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff !important;
+  border-radius: 10px;
+}
